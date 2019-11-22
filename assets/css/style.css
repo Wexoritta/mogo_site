@@ -614,21 +614,24 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
    
 }
 
-.lines2 {
+.line2 {
     
     padding: 15px 15px;
-    border-right: 5px solid #b9adad;
+    border: 1px solid #b9adad;
     position: relative;
     color: black;
     opacity: .7;
-    border: 1px solid #b9adad;
     border-top: none;
     
 }
 
 .line2 .active {
     opacity: 1;
-    
+    border-right: 5px solid gray;
+    border-right-style: 100px;
+   
+    border-left: none;
+    border-bottom: none;
 }
 
 .line2.active:before {
@@ -638,7 +641,8 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     height: 90px;
     position: absolute;
     right: 5px;
-    left: 550px;
+    left: 1160px;
+    
     z-index: 1;
     background-color: #95e1d3;
     border-radius: 2.5px;
@@ -670,26 +674,6 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 
 
-/*
-.line2 {
-    border-collapse: separate;
-    border-spacing: 0 50px;
-}
-
-
-
-.line3 {
-    border-collapse: separate;
-    border-spacing: 15px 15px;
-
-}
-
-.line4 {
-    border-collapse: separate;
-    border-spacing: 0 15px;
-}
-*/
-
 .line1 {
     border: 1px solid #e5e5e5;
    
@@ -698,11 +682,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     height: 60px;
 }
 
-.line2 {
-    border: 1px solid #e5e5e5;
-    border-spacing: 0 10px;
-    clear: both; 
-    height: 180px;
+
 }
 
 .line3 {
