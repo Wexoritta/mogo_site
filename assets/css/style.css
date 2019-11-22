@@ -43,11 +43,11 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .intro__title {
     font-size: 150px;
-     font-weight: bold;
-     color: white;
-     text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
      
-     line-height: 1;
+    line-height: 1;
      
       
 }
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
 .intro__suptitle {
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     font-family: 'Kaushan Script', cursive;
     font-size: 72px; 
     color: white;
@@ -73,13 +73,13 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
  /*Header*/
 
 .header {
-     width: 100%;
-     padding-top: 30px;
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 1000;
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
  }
 
 .header-inner {
@@ -90,9 +90,9 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
  .header-logo {
-     font-size: 30px;
-     font-weight: 700;
-     color: white;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
  }
     /*Nav*/
  .nav {
@@ -341,12 +341,6 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     align-content: center;
 
 }
-
-
-
-
-
-
 
 /* Amazing Services */
 
