@@ -677,19 +677,28 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 
 
+.quote {
 
 
+
+}
+
+.quote_item {
+
+
+
+}
 
 
 
 /*
 
 
-.slider__item {
+.quote_title {
     width: 23%;
     font-size: 18px;
     padding: 20px 0;
-    border-top: 3px solid white;
+    border-middle: 1px solid white;
     position: relative;
     
     color: white;
@@ -698,11 +707,11 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
-.slider__item.active {
+.quote_title.active {
     opacity: 1;
 }
 
-.slider__item.active:before {
+.quote_title.active:before {
     content: "";
     display: block;
     width: 70px;
