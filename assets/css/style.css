@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .line1 {
     margin-top: 10px;
-    border: 1px solid black;
+    border: 1px solid #e5e5e5;
     border-collapse: collapse;
     height: 60px;
     
@@ -602,63 +602,54 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .cell_3 {
     margin: -40px 5px;
-    
     float: right;
        
 }
 
-.line2 {
-        
-    border: 1px solid #b9adad;
+.line2 {  
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+   
+}
+
+.line2_border {
+    
+    padding: 20px;
+
+}
+
+.line2_text {
+    border-right: 5px solid green;
+    border-radius: 2.5px;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
     position: relative;
     color: black;
     opacity: .7;
-    border-top: none;
-    padding: 10px 10px;
+    border-collapse: collapse;
+    
 }
 
-.line2.active {
+.line2_text.active {
     opacity: 1;  
     
 }
 
-.line2.active:before {
+.line2_text.active:before {
     content: "";
     display: block;
     width: 5px;
     height: 90px;
     position: absolute;
     right: 5px;
-    left: 500px;
+    left: 300px;
     
     z-index: 1;
     background-color: #95e1d3;
     border-radius: 2.5px;
 }
-
-.line2_text {
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-align: left;
-    border: 5px solid #b9adad;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .line3 {
     border: 1px solid #e5e5e5;
