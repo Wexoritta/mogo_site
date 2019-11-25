@@ -560,47 +560,57 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 =================== */
 
 .service_2 {
-    display: flex;
+    display: table;
     
-    margin-right: 20px;
-    
-   
-    width: 1200px;
-    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 90px auto 90px;
+    margin: 20px 0;
+       
 }
   
 .service_2-item {
     width: 50%;
     height: 380px;
     float: left;
-  
-}
 
-
-
-.line_text {
-   margin-bottom: 30px;
-   margin-left: 80px;
-    
 }
 
 
 .line1 {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 60px;
+    
+}
+
+.cell_1 {
+    margin: 12px 12px;
+    float: left;
+   
+}
+
+.cell_2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
-    height: 60px;
+    margin-top: 20px;
     
-
 }
+
+.cell_3 {
+    margin-left: 470px;
+    margin-bottom: 40px;
+}
+
 
 .line2_text {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     margin-right: 20px;
-    
-   
+
 }
 
 .line2 {
@@ -637,33 +647,18 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     border-radius: 2.5px;
 }
 
-.table_icons {
-    padding: 10px 10px;
-    margin-bottom: 5px;
-    float: left;
-
-}
-
-
-
-.table_pic {
-    margin-left: 350px;
-    margin-top: 5px;
-
-}
 
 
 
 
 
 
-.line1 {
-    border: 1px solid #e5e5e5;
-   
-    border-collapse: collapse;
-    
-    height: 60px;
-}
+
+
+
+
+
+
 
 .line3 {
     border: 1px solid #e5e5e5;
