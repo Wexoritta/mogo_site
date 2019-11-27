@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     background-color: #95e1d3;
     height: 270px;
     text-align: center;
-    margin: 40px 0 0;
+    margin: 40px 0;
       
 }
 
@@ -297,15 +297,15 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     width: 100%;
     vertical-align: top;
     margin-left: 30px;
+  
 
 }
 
 .facts_item {
     width: 240px;
     display: inline-block;
-    vertical-align: top;  
-    margin-top: 20px; 
-
+    vertical-align: top;
+    padding: 20px;
 }
 
 .facts_num {
@@ -327,12 +327,20 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     
 }
 
+.facts_m {
+    border-right: 1px solid white;
+    height: 100%;
+
+} 
+
 .vl {
     border-left: 1px solid white;
-    height: 90%;
+    
+    height: 100%;
     padding-right: 40px;
     padding-left: 40px;
     align-content: center;
+    margin-top: 0;
 
 }
 
@@ -675,11 +683,17 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 /* Quote
 =========== */
+.container_3 {
+    display: flex;
+    height: 180px;
+    text-align: left;
+    
+
+}
 
 .quote {
-    display: table;
     width: 100%;
-    max-width: 1200px;
+    vertical-align: top;
     margin: 100px 0;
 
 }
@@ -687,78 +701,77 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 .quote_item {
     width: 100%;
     max-width: 1200px;
+    height: 180px;
+
     margin: 0 auto;
     padding: 20px;
-    
+    vertical-align: top;
+    position: relative;
 }
 
-.quote_arrow {
+.arrow_left {
     float: left;
-    margin-top: 80px;
-
+    margin-top: 50px;
+    width: 5%;
+    position: absolute;
 }
 
-.quote_icon {
+.quote_icons {
+    width: 14%;
     margin-left: 80px;
     border: 1px solid #95e1d3;
-    padding: 35px;
-    margin-top: 40px;
+    padding: 40px;
+    position: absolute;
+
     
 }
 
 .quote_text {
-    width: 800px;
+    width: 70%;
     font-family: Roboto, sans-serif;
     font-size: 24px;
-    padding: 20px 0;
+    
     color: black;
     margin-left: 315px;
     opacity: .7;
+    float: right;
+    vertical-align: top;
+    position: absolute;
+    line-height: 1.5em;
 
 }
 
-.subquote {
+.quote_right {
+    margin-left: 1180px;
+    margin-top: 50px;
+    width: 5%;
+    position: absolute;
+
+
+}
+
+.quote_cite {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
+    font-weight: 400;
+    margin-left: 70px;
+    line-height: 1.5em;
 
 }
-/*
-.subquote.active {
+
+.quote_text.active {
     opacity: 1;
 }
 
-.subquote.active:after {
+.quote_text.active:after {
     content: "";
     display: block;
     width: 60px;
     height: 3px;
-    position: absolute;
-    top: -3px;
-    left: 150px;
-    z-index: 1;
-    background-color: #f38181;
-}
-
-
-
-.feauture_title:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    margin: 40px auto;
+    
     background-color:#f38181;
+    left: 315px;
 
 }
 
-*/
 
-
-
-
-
-
-/*
-
-
-*/
