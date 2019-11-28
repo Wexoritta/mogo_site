@@ -1,4 +1,3 @@
-
 body {
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
@@ -114,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     center no-repeat;
     
     background-size: cover;
+    
  }
 
 .intro__inner {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     max-width: 830px;
     height: 550px;
     text-align: center;
-    margin: 150px auto;
+    margin: 100px auto;
     
 }
 
@@ -177,36 +177,40 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 
 
-/*Slider*/
+/* Slider 
+============ */
 
 
 .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    position: absolute;
-    bottom: -50px;
-    left: 0;
-    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 
 .slider__inner {
     display: flex;
     justify-content: space-between;
-    
-    
+    vertical-align: top;
+    margin-top: 40px;
+    position: relative;
 }
 
 .slider__item {
     width: 23%;
     font-size: 18px;
-    padding: 20px 0;
+    bottom: 0;
     border-top: 3px solid white;
+    padding: 40px 0;
     position: relative;
-    
+    z-index: 1;
+    vertical-align: bottom;
     color: white;
     text-transform: uppercase;
     opacity: .7;
-
 }
 
 .slider__item.active {
@@ -223,6 +227,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     left: 0;
     z-index: 1;
     background-color: #f38181;
+
 }
 
 .slider_num {
@@ -232,9 +237,11 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
 
-/* Main */
+/* Main
+========== */
 
-/*Box*/
+/* Box 
+========== */
 
 .box {
     width: 100%;
