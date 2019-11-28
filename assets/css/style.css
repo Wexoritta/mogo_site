@@ -840,7 +840,6 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
 .intro_team {
-
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -867,6 +866,21 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
+
+/*Container Our Team 
+====================== */
+
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 90px auto;
+
+}
+
 .img_team {
     display: flex;
     justify-content: space-between;
@@ -876,12 +890,26 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
 .img_team1 {
-    width: 34%;
-    padding: 20px;
-    vertical-align: bottom;
     
+    padding: 30px; /* Расстояние от картинки до рамки */
+
 }
 
+.team1_1 {
+    width: 380px;
+    height: 470px;
+    position: relative;
+    z-index: 1;
+    vertical-align: bottom;
+}
+
+.img_text {
+    padding: 30px;
+
+}
+
+
+/*
 .team1_1 {
     position: relative;
     z-index: 1;
@@ -902,7 +930,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     left: 80px;
     top: 210px;
 }
-
+*/
 .team_develope {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -923,12 +951,41 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
-
+/*
 .img_team2 {
     width: 34%;
     
     vertical-align: bottom;
     
 }
+*/
 
 
+
+/*
+
+.container4 {
+
+    display: flex;
+    
+    height: 550px;
+    text-align: center;
+    margin: 40px 0;
+      
+}
+
+.img_team {    
+    width: 100%;
+    vertical-align: top;
+    margin-left: 30px;
+  
+
+}
+
+.team_item {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+*/
