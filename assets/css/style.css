@@ -13,7 +13,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {margin: 0;}
 
+  /*Container*/
+  .container {
+    width: 100%;
+    max-width: 1200px;
   
+    margin: 0 auto;
+
+ }
 
  /*Header*/
 
@@ -87,15 +94,14 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     color: yellow;
 }
 
-  /*Container*/
+  /*Intro*/
+
   .container {
     width: 100%;
     max-width: 1200px;
-    height: 1000px;
     margin: 0 auto;
 
  }
- /*Intro*/
 
  .intro {
     display: flex;
@@ -171,17 +177,21 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 
 /*Slider*/
+
+
 .slider {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -360px;
     left: 0;
     z-index: 1;
+
 }
 
 .slider__inner {
     display: flex;
     justify-content: space-between;
+    
     
 }
 
@@ -536,18 +546,16 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
 .supservices2 {
-    width: 100%;
-    max-width: 300px;
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
-     
-    margin: 0 auto;
+    color: black;
 }
 
 .service2_title {
 
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    color: black;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 2em;
