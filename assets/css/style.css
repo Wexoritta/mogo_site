@@ -13,61 +13,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {margin: 0;}
 
-    /*Container*/
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-
- }
- /*Intro*/
-
- .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background: url("../foto/intro.jpg") 
-    center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
- }
-.intro__inner {
-    width: 100%;
-    max-width: 830px;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-
-.intro__title {
-    font-size: 150px;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-     
-    line-height: 1;   
-      
-}
-
-.intro__title:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    margin: 60px auto;
-    background-color: white;
-    
-}
-
-.intro__suptitle {
-    margin-bottom: 20px;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 72px; 
-    color: white;
-        
-}
+  
 
  /*Header*/
 
@@ -93,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     font-weight: 700;
     color: white;
  }
+
     /*Nav*/
  .nav {
     font-size: 14px;
@@ -140,6 +87,66 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     color: yellow;
 }
 
+  /*Container*/
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+
+ }
+ /*Intro*/
+
+ .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    background: url("../foto/intro.jpg") 
+    center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+ }
+
+.intro__inner {
+    width: 100%;
+    max-width: 830px;
+    height: 550px;
+    text-align: center;
+    margin: 150px auto;
+    
+}
+
+.intro__title {
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+     
+    line-height: 1;   
+      
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto;
+    background-color: white;
+    
+}
+
+.intro__suptitle {
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px; 
+    color: white;
+        
+}
+
+
 .btn {
     display: inline-block;
     vertical-align: top;
@@ -161,6 +168,8 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 }
 
 
+
+
 /*Slider*/
 .slider {
     width: 100%;
@@ -174,7 +183,6 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     display: flex;
     justify-content: space-between;
     
-
 }
 
 .slider__item {
@@ -352,13 +360,14 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 90px auto 90px;
+    margin: 50px auto;
+    height: 650px;
 }
 
 .box_s {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -393,9 +402,17 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 /* Options_Service */
 
+.container_service {
+    width: 100%;
+    max-width: 1200px;
+    
+    margin: 40 auto;
+
+ }
+
 .service {
     display: flex;
-    margin: 40px 0; 
+    margin: 20px auto;
 }
 
 .service_item {
@@ -434,6 +451,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 .hr {
     width: 100%;
     border: 1px solid #e5e5e5;
+    opacity: .5;
 }
 
 
@@ -507,6 +525,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     width: 100%;
     max-width: 1200px;
     margin: 90px auto 90px;
+    height: 1150px;
 }
 
 .service2_box {
@@ -555,6 +574,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     margin-top: 30px;
     margin-left: 100px;
     margin-bottom: 30px;
+    opacity: 0.7;
 
 }
 
@@ -838,7 +858,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 .img_team {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     margin-top: 90px;
     position: relative;
 }
@@ -846,14 +866,14 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 .img_team1 {
     width: 34%;
     padding: 20px;
+    vertical-align: bottom;
     
 }
 
 .team1_1 {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    left: 10px;
-    top: 10px;
+    
 }
 
 .team1_2 {
@@ -894,8 +914,9 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .img_team2 {
     width: 34%;
-    padding: 20px;
-    position: relative;
-
+    
+    vertical-align: bottom;
+    
 }
+
 
