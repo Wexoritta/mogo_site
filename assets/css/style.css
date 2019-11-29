@@ -560,10 +560,22 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     text-align: center;
 }
 
+.service2_item {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 40px auto;
+    line-height: 40px;
+   
+}
+
 .supservices2 {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
-    color: black;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    
 }
 
 .service2_title {
