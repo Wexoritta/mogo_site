@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     max-width: 830px;
     height: 550px;
     text-align: center;
-    margin: 100px auto;
+    margin: 40px auto;
     
 }
 
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto 0;
 
 }
 
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     display: flex;
     justify-content: space-between;
     vertical-align: top;
-    margin-top: 40px;
+    margin-bottom: 20px;
     position: relative;
 }
 
