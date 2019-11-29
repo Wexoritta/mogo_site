@@ -838,8 +838,9 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    
     max-width: 1200px;
-    margin: 120px auto 120px;
+    margin: 45px auto;
 }
 
 .our_team {
@@ -886,10 +887,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
-
-/*Container Our Team 
-====================== */
-
+/*Container Our Team  */
 
 .container4 {
     display: flex;
@@ -897,7 +895,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 90px auto;
+    margin: 0 auto;
 
 }
 
@@ -939,7 +937,6 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
-
 .img_text {
     padding: 30px;
 
@@ -963,23 +960,18 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
-
 /* Logos 
 ========== */
 
 .logos {
     width: 1200px;
-    height: 150px;
-    margin: 90px auto;
+    margin: 120px auto;
     background-color: #f8f8f8;
-
 
 }
 
-
 /* Work 
 =========== */
-
 
 .work {
     display: flex;
@@ -987,8 +979,8 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 90px auto 90px;
-    height: 1150px;
+    margin: 40px auto;
+   
 }
 
 .container_work {
