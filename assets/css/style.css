@@ -985,6 +985,80 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 }
 
+
+/* Work 
+=========== */
+
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 90px auto 90px;
+    height: 1150px;
+}
+
+.container_work {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service2_item {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 40px auto;
+    line-height: 40px;
+   
+}
+
+.supservices2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    
+}
+
+.service2_title {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2em;
+        
+}
+
+.service2_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background-color:#f38181;
+
+}
+
+.service2_text {
+    width: 960px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+   font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+
+}
+
 /*
 
 */
