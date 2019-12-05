@@ -1050,31 +1050,30 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 .works {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     flex-wrap: wrap;
+    
+    justify-content: flex-start;
     width: 100%;
     height: 780px;
-    vertical-align: top;
     max-width: 1920px;
-    margin: 0 auto;
+    
     
 }
 
 .works_item {
-    width: 25%;
-    height: 390px;
+    width: 480px;
+    height: 50%;
     
     position: relative;
     overflow: hidden;
-    vertical-align: top;
-    
-    
+    align-self: baseline;
 }
   
  .works_item:hover .works_content {
     opacity: 1;
 } 
+
+
 
 .works_photo1 {
     position: absolute;
@@ -1083,7 +1082,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     z-index: 1;
     
     transform: translate3d(-50%, -50%, 0);
-    align-self: flex-start;
+    align-self: baseline;
     
 }
 
@@ -1096,23 +1095,14 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     background: url(../foto/work/work-font.jpg);
     filter: opacity(0.9);
     opacity: 0;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    transform: translate3d(-50%, -50%, 0);
-    
-} 
-/* .works_icons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 0;
 
-    transform: translate3d(-50%, -50%, 0);
-    opacity: 0.5;
-} */
+    text-align: center;
+
+    position: absolute;
+    z-index: 2;
+   
+    transition: opacity .2s linear;
+} 
 
 
 .works_photo2 {
@@ -1123,8 +1113,17 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
     transform: translate3d(-50%, -50%, 0);
     
-    
 }
+
+.works_item2 {
+    width: 480px;
+    height: 100%;
+    
+    position: relative;
+    overflow: hidden;
+    align-self: stretch;
+}
+
 
 .works_photo3 {
     position: absolute;
@@ -1133,26 +1132,44 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     z-index: 1;
 
     transform: translate3d(-50%, -50%, 0);
+    height: 100%;
 
-   
 }
 
+.works_item2:hover .works_content2 {
+    opacity: 1;
+} 
 
+.works_content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: url(../foto/work/work-font.jpg) no-repeat;
+    filter: opacity(0.9);
+    opacity: 0;
+    background-size: cover;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+   
+    transition: opacity .2s linear;
+    transform: translate3d(-50%, -50%, 0);
+} 
 
-
-
-/*
 .works_photo4 {
     position: absolute;
-    top: 100%;
+    top: 15%;
     left: 50%;
     z-index: 1;
 
     transform: translate3d(-50%, -50%, 0);
-    
-    
+        
 }
-
+/*
 .works_photo5 {
     position: absolute;
     top: 50%;
@@ -1209,7 +1226,8 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     font-weight: 400;
     text-transform: uppercase;
     line-height: 2em;
-    margin-top: 80px;
+    margin-top: 60px;
+   
 
 }
 
