@@ -1281,7 +1281,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     width: 210px;
     height: 210px;
     margin: 0 auto;
-    margin-left: 70px;
+    margin-left: 80px;
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
@@ -1311,7 +1311,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     line-height: 1.5em;
 
 }
-/* 
+
 .testimonial_text.active {
     opacity: 1;
 }
@@ -1338,11 +1338,11 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     line-height: 1.5em;
 
 }
-*/
+
 .arrow_down2 {
     margin-left: 1180px;
     margin-top: 80px;
     width: 60px;
     position: absolute;
 
-}  */
+} 
