@@ -957,8 +957,8 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 .logos {
     width: 1200px;
     margin: 120px auto;
-    background-color: #f8f8f8;
-    margin: 120px auto ;
+    background-color: #ffffff;
+    
 
 }
 
@@ -1247,52 +1247,63 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 /* Testimonial
 ================ */
 
-.container_4 {
+.testimonial {
     display: flex;
-    height: 180px;
-    text-align: left;
-    
-}
-
-.quote {
-    width: 100%;
-    vertical-align: center;
-    margin: 60px 0;
-
-}
-
-.quote_item {
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 1200px;
-    height: 180px;
-    vertical-align: top;
+    margin: 80px auto;
+      
+}
+
+.container_testim {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.testimonial_item {
+    width: 100%;
+    max-width: 1200px;
     position: relative;
 }
 
 .arrow_down {
     float: left;
-    margin-top: 50px;
-    width: 5%;
+    margin-top: 60px;
+    width: 50px;
     position: absolute;
 }
 
-.quote_icons {
-    width: 14%;
-    margin-left: 80px;
-    border: 3px solid #95e1d3;
-    
-    padding: 45px;
+.test_img {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    margin-left: 70px;
     position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
  
 }
 
-.quote_text {
+.testimonial_img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+.testimonial_text {
     width: 70%;
     font-family: Roboto, sans-serif;
     font-size: 24px;
     
-    color: #d4d4d4;
-    margin-left: 315px;
+    color: #999999;
+    margin-left: 320px;
     opacity: .7;
     float: right;
     vertical-align: top;
@@ -1300,12 +1311,12 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     line-height: 1.5em;
 
 }
-
-.quote_text.active {
+/* 
+.testimonial_text.active {
     opacity: 1;
 }
 
-.quote_text.active:after {
+.testimonial_text.active:after {
     content: "";
     display: block;
     width: 60px;
@@ -1318,7 +1329,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     
 }
 
-.quote_t {
+.testimonial_t {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     font-weight: 400;
@@ -1327,11 +1338,11 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     line-height: 1.5em;
 
 }
-
+*/
 .arrow_down2 {
-    margin-left: 1160px;
-    margin-top: 50px;
-    width: 5%;
+    margin-left: 1180px;
+    margin-top: 80px;
+    width: 60px;
     position: absolute;
 
-}
+}  */
