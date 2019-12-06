@@ -1243,3 +1243,95 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     font-size: 15px; 
     color: white;
 } 
+
+/* Testimonial
+================ */
+
+.container_4 {
+    display: flex;
+    height: 180px;
+    text-align: left;
+    
+}
+
+.quote {
+    width: 100%;
+    vertical-align: center;
+    margin: 60px 0;
+
+}
+
+.quote_item {
+    width: 100%;
+    max-width: 1200px;
+    height: 180px;
+    vertical-align: top;
+    position: relative;
+}
+
+.arrow_down {
+    float: left;
+    margin-top: 50px;
+    width: 5%;
+    position: absolute;
+}
+
+.quote_icons {
+    width: 14%;
+    margin-left: 80px;
+    border: 3px solid #95e1d3;
+    
+    padding: 45px;
+    position: absolute;
+ 
+}
+
+.quote_text {
+    width: 70%;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    
+    color: #d4d4d4;
+    margin-left: 315px;
+    opacity: .7;
+    float: right;
+    vertical-align: top;
+    position: absolute;
+    line-height: 1.5em;
+
+}
+
+.quote_text.active {
+    opacity: 1;
+}
+
+.quote_text.active:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color:#f38181;   
+    position: absolute;
+    top: 150px;
+    left: -5px;
+    z-index: 1;
+    
+}
+
+.quote_t {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 70px;
+    line-height: 1.5em;
+
+}
+
+.arrow_down2 {
+    margin-left: 1160px;
+    margin-top: 50px;
+    width: 5%;
+    position: absolute;
+
+}
