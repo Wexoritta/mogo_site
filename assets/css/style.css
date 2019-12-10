@@ -996,13 +996,13 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 40px auto;
       
 }
 
 .container_work {
     width: 100%;
-    height: 220px;
+    height: 300px;
     max-width: 1200px;
     margin: 20px auto;
     text-align: center;
@@ -1064,7 +1064,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     width: 100%;
     
     max-width: 1920px;
-    margin: 20px auto;
+    margin: 60px auto;
     text-align: center;
 }
 
@@ -1156,6 +1156,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     height: 100%;
+    
     background: rgba(245, 174, 132, .9);
     opacity: 0;
     text-align: center;
@@ -1258,7 +1259,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 200px;
     height: 220px;  
 }
 
@@ -1296,18 +1297,15 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 .testimonial_img {
     width: auto;
     height: 100%;
-    margin: 0 auto;
-    
+   
 }
 
 .testimonial_text {
     width: 70%;
     font-family: Roboto, sans-serif;
     font-size: 24px;
-    
     color: #999999;
     margin-left: 320px;
-    opacity: .7;
     float: right;
     vertical-align: top;
     position: absolute;
@@ -1353,8 +1351,15 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 /* What people say 
 =================== */
 
+.container_wPsay {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
 .wPsay {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -1363,18 +1368,13 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     background: url(../foto/whatPeoplesay/wPs.jpg)
     center no-repeat;
     background-size: cover;
-    /* text-align: center; */
-    z-index: 1;
+    text-align: center;
+    
+    /* opacity: 0.1;  */
+    
 }
 
-.container_wPsay {
-    width: 100%;
-    height: 830px;
-    
-    margin: 200px auto;
-    
-  
-}
+
 
 .wPsay_item {
     width: 100%;
@@ -1382,9 +1382,13 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     text-align: center;
     margin: 0 auto;
     line-height: 40px;
-   z-index: 100;
-}
+    z-index: 100;
+    
+    
+    
 
+}
+/* 
 .sup_wPsay {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -1411,4 +1415,4 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     margin: 40px auto;
     background-color:#f38181;
 
-}
+} */
