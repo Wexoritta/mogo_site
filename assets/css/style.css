@@ -1291,12 +1291,14 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
+    
  
 }
 
 .testimonial_img {
     width: auto;
     height: 100%;
+    margin: 0 auto;
    
 }
 
@@ -1351,44 +1353,39 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 /* What people say 
 =================== */
 
-.container_wPsay {
-    width: 100%;
-    margin: 0 auto;
-    
-}
-
 .wPsay {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
     width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    background: url(../foto/whatPeoplesay/wPs.jpg)
-    center no-repeat;
+    height: 830px;
+    background: url("../foto/whatPeoplesay/wPs_fon.jpg") 
+    center no-repeat; 
+    /* Цвет фона и путь к файлу */
+   
     background-size: cover;
-    text-align: center;
-    
-    /* opacity: 0.1;  */
-    
+    margin-top: 100px;
+ 
 }
-
-
-
+ 
+.wPsay_container {
+ 
+    width: 100%;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+ 
+}
+ 
 .wPsay_item {
     width: 100%;
     max-width: 1200px;
+    position: relative;
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto;
     line-height: 40px;
-    z-index: 100;
     
-    
-    
-
-}
-/* 
+} 
+ 
 .sup_wPsay {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -1414,5 +1411,66 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     height: 3px;
     margin: 40px auto;
     background-color:#f38181;
+
+}
+
+/* What people say_ grid
+======================== */
+
+
+.wPs_container {
+    width: 100%;
+    max-width: 1200px;
+    
+    margin: 80px auto;
+
+ }
+
+.wPs_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 20px auto;
+}
+
+.wPs_item {
+    width: 50%;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.wPs_icons { 
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    /* position: absolute; */
+    overflow: hidden;
+    border-radius: 50%; 
+    
+}
+.wPs_worker {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+ }
+/* 
+.wPs_title {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    color: #333333;
+    margin-left: 80px;
+}
+
+.wPs_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+    color:#999999;
+    margin-left: 80px;  
 
 } */
