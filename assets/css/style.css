@@ -761,26 +761,10 @@ hr {
     
 }
 
-.quote_t {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 24px;
-    font-weight: 400;
-    color: #333333;
-    margin-left: 70px;
-    line-height: 1.5em;
 
-}
 
-.quote_right {
-    margin-left: 1160px;
-    margin-top: 50px;
-    width: 5%;
-    position: absolute;
 
-} */
 
-/*Our team
-==============*/
 /* 
 .container_team {
     display: flex;
