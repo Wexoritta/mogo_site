@@ -296,6 +296,7 @@ hr {
 }
 
 .section--map {
+    padding: 40px 0;
     background: url(../foto/map/fon.jpg)
     no-repeat center;
     background-size: cover;
@@ -1166,6 +1167,85 @@ hr {
 .map__title a:hover {
     text-decoration: underline;
 }
+
+.footer {
+    padding-top: 70px;
+    background-color: #f8f8f8;
+
+}
+
+.footer__inner {
+    padding-bottom: 65px;
+}
+
+.footer__logo {
+    margin-bottom: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #cccccc;
+    line-height: 2;  
+}
+
+.footer__text {
+    margin-top: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    font-weight: 400;
+    font-style: normal;
+
+    color: #cccccc;
+
+}
+
+.footer__social {
+    margin-bottom: 25px;
+}
+
+.footer__social-header {
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__social-header b {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.footer__social-content {
+    padding-top: 15px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    font-weight: 300;
+    font-style: italic;
+    color: #b1b1b1;
+}
+
+.footer__social-content a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+
+    font-size: 16px;
+    color: #95e1d3;
+}
+
+/* Subscribe 
+============= */
+
+.subscribe {
+    width: 100%;
+    max-width: 380px;   
+}
+
 
 
 
