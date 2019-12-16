@@ -1247,7 +1247,24 @@ hr {
 }
 
 
+.subscribe__input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    font-weight: 300;
+    font-style: italic;
+    color: #d2d2d2;
+    padding: 15px 25px;
 
+}
 
-
+.subcribe__btn {
+    padding-bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #95e1d3;
+    
+    padding: 15px 25px;
+}
 
