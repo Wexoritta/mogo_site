@@ -1222,7 +1222,7 @@ hr {
 }
 
 .footer__social {
-    margin-bottom: 25px;
+   margin: 20px 0 25px;
 }
 
 .footer__social-header {
@@ -1233,6 +1233,7 @@ hr {
     color: #333333;
 
     border-bottom: 1px solid #e5e5e5;
+    
 }
 
 .footer__social-header b {
@@ -1259,20 +1260,14 @@ hr {
     color: #95e1d3;
 }
 
-.footet__title {
-    font-family: 'Montserrat', sans-serif;
+.footer__title {
+    
     font-size: 14px;
     font-weight: 400;
     color: #333333;
     text-transform: uppercase;
-    margin: 30px 0;
 
 }
-
-
-
-
-
 
 /* Subscribe 
 ============= */
@@ -1283,7 +1278,6 @@ hr {
     max-width: 380px;  
     padding-top: 30px; 
 }
-
 
 .subscribe__input {
     width: 60%;
@@ -1369,7 +1363,6 @@ hr {
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-
     color: #333333;
     line-height: 1.5;
 
@@ -1398,15 +1391,16 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    margin-top: 45px;
     
 }
 
+
 .instagram__item {
     width: 32.33333%;
-    
-    border: 2px solid white;
-    
-   
+    border-bottom: 4px solid white;
+     
 }
 
 .instagram__item img {
@@ -1414,3 +1408,17 @@ hr {
     
 }
 
+/* Copyright 
+============= */
+
+.copyright {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.copyright span {
+    color: #f38181;
+}
