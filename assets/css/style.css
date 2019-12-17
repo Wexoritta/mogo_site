@@ -283,7 +283,7 @@ hr {
 
 .section--clients {
     
-    background: url(../foto/clients/clients_fon.jpg)
+    background: url(../foto/clients/fon_clients.jpg)
     no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -297,7 +297,7 @@ hr {
 
 .section--map {
     padding: 40px 0;
-    background: url(../foto/map/fon.jpg)
+    background: url(../foto/map/images/fon.jpg)
     no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1195,7 +1195,8 @@ hr {
 }
 
 .footer__col--third {
-    width: 22%;
+    width: 23%;
+    margin-bottom: 40px;
 }
 
 .footer__logo {
@@ -1336,3 +1337,80 @@ hr {
 .subcribe__btn:focus {
     outline: 0;
 }
+
+/* Blogs 
+========= */
+
+.blogs {
+    margin-top: 45px;
+}
+
+.blogs__item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    
+}
+
+.blogs__img {
+    width: 120px;
+    height: 80px;
+}
+
+.blogs__content {
+    padding-left: 20px;
+
+}
+
+.blogs__title {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    color: #333333;
+    line-height: 1.5;
+
+    text-decoration: none;
+}
+
+.blogs__title:hover {
+    text-decoration: underline;
+}
+
+.blogs_date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+
+    color: #333333;
+    line-height: 1;
+
+}
+
+/* Instagram 
+============== */
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.instagram__item {
+    width: 32.33333%;
+    
+    border: 2px solid white;
+    
+   
+}
+
+.instagram__item img {
+    display: block;
+    
+}
+
