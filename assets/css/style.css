@@ -272,8 +272,7 @@ hr {
 }
 .section--gray {
     background-color: #f8f8f8;
-    height: 270px;
-
+   
 }
 
 .section--map {
@@ -495,26 +494,24 @@ hr {
 
 }
 
-/* service2 
-=================== */
+/* We do 
+========== */
 
-.service__2 {
+.wedo {
     display: flex;
-    width: 1200px;
     margin: 0 auto 100px;
            
 }
   
-.service__2-item {
+.wedo__item {
     width: 50%;
     
 }
 
 /* Accordion */
 
-
 .accordion__item {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border: 1px solid #e5e5e5; 
 }
 
@@ -573,8 +570,6 @@ hr {
     transform: translateY(-50%);
 }
 
-
-
 .accordion__title {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -598,40 +593,23 @@ hr {
 /* Reviews */
 
 .reviews {
-    padding: 0 100px;
-    position: relative;
+    padding: 0 110px;
+    
 }
 
 .reviews__item {
     padding-left: 205px;
     position: relative;
    
-
 }
 
 .reviews__photo {
     border: 2px solid #95e1d3;
-    
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-
     padding: 40px;
-}
-
-.reviews__item2 {
-    padding-left: 255px;
-    position: relative;
-   
-}
-
-.reviews__photo2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1; 
-
 }
 
 .reviews__text {
@@ -642,8 +620,7 @@ hr {
 
     color: #999999;
     margin-bottom: 15px;
-
-    width: 800px;
+ 
 }
 
 .reviews__author {
@@ -665,9 +642,8 @@ hr {
 }
 
 .reviews__btn {
-    font-size: 0;
-    color: transparent;
-
+    /* font-size: 0;
+    color: transparent; */
     position: absolute;
     top: 50%;
     z-index: 1;
@@ -682,42 +658,22 @@ hr {
     height: 16px;
     margin-top: 5px;
 
-    border-top: 2px solid #cccccc;
-    border-left: 2px solid #cccccc;
+    border-top: 2px solid #e41b1b;
+    border-left: 2px solid #f31a1a;
  
 }
 
-.reviews__btn-prev {
+.reviews__btn--prev {
     left: 0;
     transform: rotate(-45deg);
 
 }
 
-.reviews__btn-next {
+.reviews__btn--next {
     right: 0;
     transform: rotate(135deg);
 
 }
-
-
-/* .card__inner {
-    background-color: #95e1d3;
-    position: relative;
-}
-
-.card__inner:hover .card__img {
-    transform: translate3d(-10px, -10px, 0);
-}
-
-.card__inner:hover .card__img img {
-    opacity: .1;
-
-}
-
-.card__inner:hover .card__text {
-    opacity: 1;
-} */
-
 
 /* Social
 ===========*/
@@ -756,7 +712,6 @@ hr {
     margin-top: 20px;
     text-align: center;
 }
-
 
 .card__name {
     font-family: 'Montserrat', sans-serif;
