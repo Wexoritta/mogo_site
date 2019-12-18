@@ -681,6 +681,20 @@ hr {
     
 }
 
+.reviews__item2 {
+    padding-left: 255px;
+    position: relative;
+   
+}
+
+.reviews__photo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+
+}
+
 /* Social
 ===========*/
 
