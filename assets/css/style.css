@@ -434,17 +434,22 @@ hr {
 
 .service {
     display: flex;
+    flex-wrap: wrap;
    
 }
 
 .service__item {
-    flex: 1 1 0;
-    padding-left: 85px;
-    padding-right: 35px;
-    position: relative;
+    width: 33.33333%;
     
+    padding: 0 35px 40px 85px;
+    position: relative;
+    margin-bottom: 40px;
 }
  
+.service__item--border {
+    border-bottom: 1px solid #e5e5e5;
+}
+
 .service__icon { 
    position: absolute;
    top: 0;
@@ -485,7 +490,8 @@ hr {
 
 .devices__item {
     display: block;
-    
+    max-width: 100%;
+    height: auto;
 }
 
 .devices__item--iphone {
@@ -501,13 +507,20 @@ hr {
 
 .wedo {
     display: flex;
-    margin: 0 auto 100px;
-           
+    flex-wrap: wrap;
+    margin: 0 -15px;      
 }
   
 .wedo__item {
     width: 50%;
+    padding: 0 15px;
         
+}
+
+.wedo__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Accordion */
@@ -1383,6 +1396,17 @@ hr {
         border-right: 0;
     }
 
+    /* Service */
+
+    .service__item {
+        width: 50%;
+        padding-bottom: 0;
+    }
+
+    .service__item--border {
+        border-bottom: 0;
+    }
+
 }
 
 @media (max-width: 770px) {
@@ -1397,6 +1421,11 @@ hr {
     .section {
         padding: 40px 0;
     }
+
+    .section--devices {
+        padding-bottom: 0;
+    }
+    
     /* Card */
 
     .card {
@@ -1415,7 +1444,7 @@ hr {
         margin-bottom: 0;
     }
     
-    
+        
     /* Slider */
 
     .slider__text {
@@ -1424,6 +1453,33 @@ hr {
 
     .slider__item.active:before {
         width: 50%;
+    }
+
+    /* Service */
+
+    .service {
+        justify-content: center;
+    }
+
+    .service__item {
+        width: 100%;
+        max-width: 400px;
+        padding-left: 55px;
+        padding-right: 0;
+    }
+
+    .service__icon {
+        left: 0;
+    }
+
+    /* Wedo */
+
+    .wedo__img {
+        display: none;
+    }
+
+    .works__item {
+        width: 100%;
     }
 
 }
@@ -1473,4 +1529,17 @@ hr {
     .stat__num {
         font-size: 52px;
     }
+
+    /* Devices */
+
+    .devices {
+        max-width: 320px;
+    }
+    
+    .devices__item--iphone {
+        width: 180px;
+        bottom: -50px;
+        right: -80px;
+    }
+    
 }
