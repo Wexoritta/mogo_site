@@ -508,7 +508,7 @@ hr {
 .wedo {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;      
+    /* margin: 0 -15px;       */
 }
   
 .wedo__item {
@@ -621,13 +621,18 @@ hr {
 }
 
 .reviews__photo {
+    display: block;
+    width: 210px;
+    height: 210px;
+
     border: 2px solid #95e1d3;
+    border-radius: 50%;
     
     position: absolute;
     top: 0;
-    left: 0;
+    left: -50px;
     z-index: 1;
-    padding: 40px;
+    
 }
 
 .reviews__text {
@@ -693,20 +698,6 @@ hr {
     right: 0;
     transform: rotate(135deg);
     
-}
-
-.reviews__item2 {
-    padding-left: 255px;
-    position: relative;
-   
-}
-
-.reviews__photo2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1; 
-
 }
 
 /* Social
@@ -1363,6 +1354,12 @@ hr {
     .intro__title {
         font-size: 120px;
     }
+
+    /* reviews */
+
+    .reviews__text {
+        font-size: 20px;
+    }
 }
 
 
@@ -1405,6 +1402,21 @@ hr {
 
     .service__item--border {
         border-bottom: 0;
+    }
+
+    /* reviews */
+
+    .reviews {
+        padding: 0 60px;
+    }
+
+    .reviews__photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .reviews__item {
+        padding-left: 175px;
     }
 
 }
@@ -1472,7 +1484,7 @@ hr {
         left: 0;
     }
 
-    /* Wedo */
+        /* Wedo */
 
     .wedo__img {
         display: none;
@@ -1480,6 +1492,17 @@ hr {
 
     .works__item {
         width: 100%;
+    }
+
+    /* Reviews */
+
+    .reviews__photo {
+        position: static;
+        margin: 0 auto;
+    }
+
+    .reviews__item {
+        padding-left: 0;
     }
 
 }
