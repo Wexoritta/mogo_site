@@ -27,7 +27,7 @@ hr {
     width: 100%;
     max-width: 1230px;
     padding: 0 15px;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
  /*Header*/
@@ -183,13 +183,6 @@ hr {
 /* Slider 
 ============ */
 
-.container__slider {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-
- }
-
 .slider {
     display: flex;
     flex-direction: column;
@@ -327,29 +320,34 @@ hr {
 /* Card */
 
 .card {
-    margin-top: 80px;
+    margin: 80px -15px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
        
 }
 
 .card__item {
-    width: 380px;
-    position: relative;
-    background-color: #95e1d3;
+    width: 33.33333%;
+    padding: 0 15px;
     
 }
 
-.card__item:hover .card__img {
+.card__inner {
+    position: relative;
+    background-color: #95e1d3;
+}
+
+.card__inner:hover .card__img {
     transform: translate3d(-10px, -10px, 0);
 }
 
-.card__item:hover .card__img img {
+.card__inner:hover .card__img img {
     opacity: .1;
 
 }
 
-.card__item:hover .card__text {
+.card__inner:hover .card__text {
     opacity: 1;
 }
 
@@ -362,6 +360,8 @@ hr {
 
 .card__img img {
     display: block;
+    max-width: 100%;
+    height: auto;
     transition: opacity .1s linear;
     
 }
@@ -396,6 +396,7 @@ hr {
 
 .stat {    
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -1363,6 +1364,25 @@ hr {
     .intro__title {
         font-size: 80px;
     }
+
+    /* Stat */
+
+    .stat {
+        justify-content: center;
+    }
+
+    .stat__item {
+        flex: none;
+        width: 33.33333%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: 0;
+    }
+
+    .stat__item:last-child {
+        border-right: 0;
+    }
+
 }
 
 @media (max-width: 770px) {
@@ -1377,7 +1397,25 @@ hr {
     .section {
         padding: 40px 0;
     }
+    /* Card */
 
+    .card {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .card__item {
+        width: 100%;
+        max-width: 410px;
+        margin-bottom: 30px;
+
+    }
+
+    .card__item:last-child {
+        margin-bottom: 0;
+    }
+    
+    
     /* Slider */
 
     .slider__text {
@@ -1418,5 +1456,21 @@ hr {
 
     .section__title:after {
         margin: 20px auto;
+    }
+
+    /* Stat */
+
+    .stat__item {
+        width: 100%;
+
+        border-bottom: 1px solid #b5eae0;
+    }
+
+    .stat__item:last-child {
+        border-bottom: 0;
+    }
+
+    .stat__num {
+        font-size: 52px;
     }
 }
