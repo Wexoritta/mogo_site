@@ -1460,6 +1460,11 @@ hr {
 
 @media (max-width: 770px) {
 
+    /* Intro */
+    .intro {
+        min-height: 650px;
+    }
+
     /* Nav */
     .nav {
         display: none;
@@ -1588,7 +1593,6 @@ hr {
 @media (max-width: 575px) {
 
     /* Intro */
-
     .intro__suptitle {
         font-size: 22px;
     }
