@@ -708,14 +708,13 @@ hr {
 
 .reviews {
     padding: 0 110px;
-    position: relative;
-    
+    position: relative;  
 }
 
 .reviews__item {
+    min-height: 210px;
     padding-left: 255px;
-    position: relative;
-   
+    position: relative; 
 }
 
 .reviews__photo {
@@ -730,7 +729,6 @@ hr {
     top: 0;
     left: 0;
     z-index: 1;
-    
 }
 
 .reviews__text {
@@ -742,7 +740,6 @@ hr {
     font-weight: 300;
 
     color: #999999;
-     
 }
 
 .reviews__author {
@@ -771,7 +768,6 @@ hr {
     top: 50%;
     z-index: 1;
     transform: translateY(-50%);
-
 }
 
 .reviews__btn:after {
@@ -783,19 +779,16 @@ hr {
 
     border-top: 2px solid #cccccc;
     border-left: 2px solid #cccccc;
-    
 }
 
 .reviews__btn--prev {
     left: 0;
     transform: rotate(-45deg);
-
 }
 
 .reviews__btn--next {
     right: 0;
     transform: rotate(135deg);
-    
 }
 
 /* Social
@@ -828,7 +821,6 @@ hr {
 .social__item:hover {
     background-color: #f38181;
     color: white;
-
 }
 
 .card__info {
@@ -844,7 +836,6 @@ hr {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px;
-
 }
 
 .card__prof {
@@ -854,7 +845,6 @@ hr {
     font-style: italic;
     color: #b9b9b9;
     text-align: center;
-
 }
 
 /* Logos 
@@ -866,7 +856,6 @@ hr {
     background-color: #f8f8f8;
     align-items: center;
     margin: 0 -15px;
-    
 }
 
 .logos__item {
@@ -896,7 +885,6 @@ hr {
     
     background: linear-gradient(to bottom,
     #f38181, #fce38a);
-
 }
 
 .works__item:hover .works__image {
@@ -913,7 +901,6 @@ hr {
     height: auto;
 
     transition: opacity .2s linear;
-
 }
 
 .works__info {
@@ -950,7 +937,6 @@ hr {
    
     transition: background .1s linear,
     color .1s linear;
-
 }
 
 .works__title {
@@ -961,7 +947,6 @@ hr {
     text-transform: uppercase;
     line-height: 2em;
     margin-bottom: 5px;
-
 }
 
 .works__text {
@@ -972,7 +957,6 @@ hr {
 
     color: white;
     line-height: 2;
-
 }
 
 /* clients */
@@ -981,7 +965,6 @@ hr {
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
-
 }
 
 .clients__item {
@@ -989,7 +972,6 @@ hr {
     padding: 0 45px 0 175px;
     position: relative;
     margin-bottom: 60px;
-    
 }
 
 .clients__photo {
@@ -1002,7 +984,6 @@ hr {
     top: 0;
     left: 40px;
     z-index: 1;
-    
 }
 
 .clients__name {
@@ -1013,7 +994,6 @@ hr {
     font-weight: 400;
     text-transform: uppercase;
     line-height: 15px;
-
 }
 
 .clients__prof {
@@ -1025,7 +1005,6 @@ hr {
 
     color: #333333;
     line-height: 1;
-
 }
 
 .clients__text {
@@ -1076,7 +1055,6 @@ hr {
     z-index: 1;
 
     text-align: center;
-    
 }
 
 .blog__date-day {
@@ -1086,7 +1064,6 @@ hr {
     font-weight: 700;
     
     line-height: 1;
-
 }
 
 .blog__date-month {
@@ -1096,7 +1073,6 @@ hr {
     font-style: italic;
 
     color: white;
-    /* line-height: 20px; */
 }
 
 .blog__content {
@@ -1109,8 +1085,7 @@ hr {
     font-size: 14px;
     color: #333333;
     font-weight: 400;
-    text-transform: uppercase;
-   
+    text-transform: uppercase; 
 }
 
 .blog__text {
@@ -1119,7 +1094,6 @@ hr {
     font-weight: 400;
     color: #333333;
     line-height: 1;
-
 }
 
 .blog__title a {
@@ -1140,7 +1114,6 @@ hr {
     font-weight: 300;
     font-style: italic;
     color: #b3b3b3;
-
 }
 
 .blog-stat__item {
@@ -1169,7 +1142,6 @@ hr {
     color: #f38181;
     text-transform: uppercase;
     line-height: 2;  
-
 }
 
 .map__title:after {
@@ -1179,7 +1151,6 @@ hr {
     height: 3px;
     margin: 15px auto 0;
     background-color:#f38181;
-
 }
 
 .map__title a {
