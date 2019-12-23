@@ -14,7 +14,6 @@ $(function () {
         checkScroll(scrollOffset);
     });
 
-
     function checkScroll(scrollOffset) {
         if( scrollOffset >= introH ) {
             header.addClass("fixed");
@@ -22,7 +21,6 @@ $(function () {
             header.removeClass("fixed");
         }
     }
-
 
     /* Smooth scroll */
     $("[data-scroll]").on("click", function(event) {
@@ -71,7 +69,6 @@ $(function () {
         slideToShow: 1,
         slidesToScroll: 1
      });
-
 
 });
 
